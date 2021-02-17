@@ -54,6 +54,36 @@ def get_btc_currency():
 
     return text
 
+
+def calculate(value = 0, index_option = 'buy', currency_type = 'USD'):
+    if index_option == 'buy':
+        if currency_type == 'USD':
+            usd = get_currency()[0] 
+            return value * round(float(usd["sale"]), 2)
+        elif currency_type == 'EUR':
+            eur = get_currency()[1]
+            return value * round(float(eur["sale"]), 2)
+        elif currency_type == 'RUR':
+            rur = get_currency()[2]
+            return value * round(float(rur["sale"]), 2)
+        elif currency_type == 'BTC':
+            btc = get_currency()[3]
+            return value * round(float(btc["sale"]), 2)
+
+    elif index_option == 'sell':
+        if currency_type == 'USD':
+            usd = get_currency()[0] 
+            return value * round(float(usd["buy"]), 2)
+        elif currency_type == 'EUR':
+            eur = get_currency()[1]
+            return value * round(float(eur["buy"]), 2)
+        elif currency_type == 'RUR':
+            rur = get_currency()[2]
+            return value * round(float(rur["buy"]), 2)
+        elif currency_type == 'BTC':
+            btc = get_currency()[3]
+            return value * round(float(btc["buy"]), 2)
+
  
 
 
