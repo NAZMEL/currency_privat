@@ -15,8 +15,8 @@ User can use each from this options and see result:
 <br/>
 
 <br/>
-<img src="program_pictures/2.jpg" alt="Select currency"   width="500" height="400" align="middle"/>
+<img src="program_pictures/2.jpg" alt="Select currency"   width="400" height="350" align="middle"/>
 <br/>
 
 <br/>
-<img src="program_pictures/3.jpg" alt="Calculator"   width="500" height="600" align="middle"/>
+<img src="program_pictures/3.jpg" alt="Calculator"   width="400" height="500" align="middle"/>
