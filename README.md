@@ -5,7 +5,7 @@ All converted values are getting from [PrivatBank API](https://api.privatbank.ua
 <br/><br/>
 
 ## Options
-___
+
 User can use each from this options and see result:
 1. Exchange rate (all values)
 1. Select currency (required value)
